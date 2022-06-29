@@ -21,6 +21,43 @@
     </head>
 
     <body>
+        <nav class="navbar navbar-dark navbar-expand-sm fixed-top">
+            <!-- ? bg-primary is the primary color that is defined in bootstrap -->
+            <!-- ? fixed-top will fix the nav bar in the top -->
+            <div class="container">
+                <button
+                    class="navbar-toggler"
+                    type="button"
+                    data-bs-toggle="collapse"
+                    data-bs-target="#Navbar"
+                >
+                    <!-- ? this data-toggle attribute is actually a JavaScript component usage in bootstrap. -->
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+
+                <a href="#" class="navbar-brand me-auto">
+                    <!-- ? .navbar-brand for your company, product, or project name. -->
+                    Ristorante Con Fusion
+                </a>
+                <div class="collapse navbar-collapse" id="Navbar">
+                    <ul class="navbar-nav me-auto">
+                        <!-- ? me-auto will make sure you content will be pushed to the left as much as possible -->
+                        <li class="nav-item">
+                            <a href="#" class="nav-link active">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="./aboutus.html" class="nav-link">About</a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="#" class="nav-link">Menu</a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="#" class="nav-link">Contact</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
         <header class="jumbotron">
             <div class="container">
                 <div class="row row-header">
@@ -101,7 +138,7 @@
                         <ul class="list-unstyled">
                             <!-- ? Remove bullets in the below lis' -->
                             <li><a href="#">Home</a></li>
-                            <li><a href="#">About</a></li>
+                            <li><a href="./aboutus.html">About</a></li>
                             <li><a href="#">Menu</a></li>
                             <li><a href="#">Contact</a></li>
                         </ul>
