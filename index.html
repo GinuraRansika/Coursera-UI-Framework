@@ -1,283 +1,430 @@
 <!DOCTYPE html>
 <html lang="en">
-    <head>
-        <!-- Required meta tags always come first -->
-        <meta charset="utf-8" />
-        <meta
-            name="viewport"
-            content="width=device-width, initial-scale=1, shrink-to-fit=no"
-        />
-        <meta http-equiv="x-ua-compatible" content="ie=edge" />
+   <head>
+      <!-- Required meta tags always come first -->
+      <meta charset="utf-8" />
+      <meta
+         name="viewport"
+         content="width=device-width, initial-scale=1, shrink-to-fit=no"
+      />
+      <meta http-equiv="x-ua-compatible" content="ie=edge" />
 
-        <!-- Bootstrap CSS -->
-        <link
-            rel="stylesheet"
-            href="node_modules/bootstrap/dist/css/bootstrap.min.css"
-        />
+      <!-- Bootstrap CSS -->
+      <link
+         rel="stylesheet"
+         href="node_modules/bootstrap/dist/css/bootstrap.min.css"
+      />
 
-        <link
-            rel="stylesheet"
-            href="./node_modules/@fortawesome/fontawesome-free/css/all.min.css"
-        />
-        <link
-            rel="stylesheet"
-            href="./node_modules/bootstrap-social/bootstrap-social.css"
-        />
+      <link
+         rel="stylesheet"
+         href="./node_modules/@fortawesome/fontawesome-free/css/all.min.css"
+      />
+      <link
+         rel="stylesheet"
+         href="./node_modules/bootstrap-social/bootstrap-social.css"
+      />
 
-        <link rel="stylesheet" href="./css/styles.css" />
+      <link rel="stylesheet" href="./css/styles.css" />
 
-        <title>Ristorante Con Fusion</title>
-    </head>
+      <title>Ristorante Con Fusion</title>
+   </head>
 
-    <body>
-        <nav class="navbar navbar-dark navbar-expand-sm fixed-top">
-            <!-- ? bg-primary is the primary color that is defined in bootstrap -->
-            <!-- ? fixed-top will fix the nav bar in the top -->
-            <div class="container">
-                <button
-                    class="navbar-toggler"
-                    type="button"
-                    data-bs-toggle="collapse"
-                    data-bs-target="#Navbar"
-                >
-                    <!-- ? this data-toggle attribute is actually a JavaScript component usage in bootstrap. -->
-                    <span class="navbar-toggler-icon"></span>
-                </button>
+   <body>
+      <nav class="navbar navbar-dark navbar-expand-sm fixed-top">
+         <!-- ? bg-primary is the primary color that is defined in bootstrap -->
+         <!-- ? fixed-top will fix the nav bar in the top -->
+         <div class="container">
+            <button
+               class="navbar-toggler"
+               type="button"
+               data-bs-toggle="collapse"
+               data-bs-target="#Navbar"
+            >
+               <!-- ? this data-toggle attribute is actually a JavaScript component usage in bootstrap. -->
+               <span class="navbar-toggler-icon"></span>
+            </button>
 
-                <a href="#" class="navbar-brand me-auto ms-2">
-                    <!-- ? .navbar-brand for your company, product, or project name. -->
-                    <img src="./img/logo.png" alt="" height="30" width="41" />
-                </a>
-                <div class="collapse navbar-collapse" id="Navbar">
-                    <ul class="navbar-nav me-auto">
-                        <!-- ? me-auto will make sure you content will be pushed to the left as much as possible -->
-                        <li class="nav-item">
-                            <a href="#" class="nav-link active">
-                                <span class="fa-solid fa-house"></span>
-                                Home
-                            </a>
-                        </li>
-                        <li class="nav-item">
-                            <a href="./aboutus.html" class="nav-link">
-                                <span class="fa-solid fa-circle-info"></span>
-                                About
-                            </a>
-                        </li>
-                        <li class="nav-item">
-                            <a href="#" class="nav-link">
-                                <span class="fa-solid fa-bars"></span>
-                                Menu
-                            </a>
-                        </li>
-                        <li class="nav-item">
-                            <a href="./contactus.html" class="nav-link">
-                                <span class="fa-solid fa-address-book"></span>
-                                Contact
-                            </a>
-                        </li>
-                    </ul>
-                </div>
+            <a href="#" class="navbar-brand me-auto ms-2">
+               <!-- ? .navbar-brand for your company, product, or project name. -->
+               <img src="./img/logo.png" alt="" height="30" width="41" />
+            </a>
+            <div class="collapse navbar-collapse" id="Navbar">
+               <ul class="navbar-nav me-auto">
+                  <!-- ? me-auto will make sure you content will be pushed to the left as much as possible -->
+                  <li class="nav-item">
+                     <a href="#" class="nav-link active">
+                        <span class="fa-solid fa-house"></span>
+                        Home
+                     </a>
+                  </li>
+                  <li class="nav-item">
+                     <a href="./aboutus.html" class="nav-link">
+                        <span class="fa-solid fa-circle-info"></span>
+                        About
+                     </a>
+                  </li>
+                  <li class="nav-item">
+                     <a href="#" class="nav-link">
+                        <span class="fa-solid fa-bars"></span>
+                        Menu
+                     </a>
+                  </li>
+                  <li class="nav-item">
+                     <a href="./contactus.html" class="nav-link">
+                        <span class="fa-solid fa-address-book"></span>
+                        Contact
+                     </a>
+                  </li>
+               </ul>
             </div>
-        </nav>
-        <header class="jumbotron">
-            <div class="container">
-                <div class="row row-header">
-                    <div class="col-12 col-sm-6">
-                        <h1>Ristorante con Fusion</h1>
-                        <p>
-                            We take inspiration from the World's best cuisines,
-                            and create a unique fusion experience. Our
-                            lipsmacking creations will tickle your culinary
-                            senses!
-                        </p>
-                    </div>
-                    <!-- ? This will get the remaining 6 when sm is active -->
-                    <div class="col-12 col-sm align-self-center">
-                        <img src="./img/logo.png" alt="" class="img-fluid" />
-                    </div>
-                </div>
+         </div>
+      </nav>
+      <header class="jumbotron">
+         <div class="container">
+            <div class="row row-header">
+               <div class="col-12 col-sm-6">
+                  <h1>Ristorante con Fusion</h1>
+                  <p>
+                     We take inspiration from the World's best cuisines, and
+                     create a unique fusion experience. Our lipsmacking
+                     creations will tickle your culinary senses!
+                  </p>
+               </div>
+               <!-- ? This will get the remaining 6 when sm is active -->
+               <div class="col-12 col-sm align-self-center">
+                  <img src="./img/logo.png" alt="" class="img-fluid" />
+               </div>
+               <div class="col-12 col-sm mt-3 align-self-center">
+                  <div class="d-grid">
+                     <a
+                        href="#reserve-table-form"
+                        role="button"
+                        class="btn btn-warning btn-lg"
+                     >
+                        Reserve Table
+                     </a>
+                  </div>
+               </div>
             </div>
-        </header>
+         </div>
+      </header>
 
-        <div class="container">
-            <div class="row row-content align-items-center">
-                <div class="col-12 col-sm-4 order-sm-last col-md-3">
-                    <!-- ? the order will put this div in the right corner -->
-                    <h3>Our Lipsmacking Culinary Creations</h3>
-                </div>
-
-                <div class="col col-sm order-sm-first col-md">
-                    <!-- ? in sm this will occupy remaining 8 columns -->
-                    <!-- ? in md this will occupy remaining 9 columns -->
-                    <!-- ? the order will put this div in the left corner -->
-
-                    <!-- ! media class has been replaced in bootstrap 5 -->
-                    <div class="d-flex align-items-center">
-                        <div class="flex-shrink-0">
-                            <img
-                                src="./img/uthappizza.png"
-                                alt="uthappizza"
-                                class="img-thumbnail"
-                            />
-                        </div>
-                        <div class="flex-grow-1 ms-3">
-                            <h2 class="mt-0">
-                                Uthappizza
-                                <span class="badge text-bg-danger">HOT</span>
-                                <span
-                                    class="badge rounded-pill text-bg-secondary"
-                                >
-                                    $4.99
-                                </span>
-                            </h2>
-                            <p class="d-none d-sm-block">
-                                A unique combination of Indian Uthappam
-                                (pancake) and Italian pizza, topped with
-                                Cerignola olives, ripe vine cherry tomatoes,
-                                Vidalia onion, Guntur chillies and Buffalo
-                                Paneer.
-                            </p>
-                        </div>
-                    </div>
-                </div>
+      <div class="container">
+         <div class="row row-content align-items-center">
+            <div class="col-12 col-sm-4 order-sm-last col-md-3">
+               <!-- ? the order will put this div in the right corner -->
+               <h3>Our Lipsmacking Culinary Creations</h3>
             </div>
 
-            <div class="row row-content align-items-center">
-                <div class="col-12 col-sm-4 col-md-3">
-                    <h3 class>This Month's Promotions</h3>
-                </div>
-                <div class="col col-sm col-md">
-                    <div class="d-flex align-items-center">
-                        <div class="flex-shrink-0">
-                            <img
-                                src="./img/buffet.png"
-                                alt="buffet"
-                                class="img-thumbnail"
-                            />
-                        </div>
-                        <div class="flex-grow-1 ms-3">
-                            <h2 class="mt-0">Weekend Grand Buffet</h2>
-                            <p class="d-none d-sm-block">
-                                Featuring mouthwatering combinations with a
-                                choice of five different salads, six enticing
-                                appetizers, six main entrees and five choicest
-                                desserts. Free flowing bubbly and soft drinks.
-                                All for just $19.99 per person
-                            </p>
-                        </div>
-                    </div>
-                </div>
-            </div>
+            <div class="col col-sm order-sm-first col-md">
+               <!-- ? in sm this will occupy remaining 8 columns -->
+               <!-- ? in md this will occupy remaining 9 columns -->
+               <!-- ? the order will put this div in the left corner -->
 
-            <div class="row row-content align-items-center">
-                <div class="col-12 col-sm-4 order-sm-last col-md-3">
-                    <h3>Meet our Culinary Specialists</h3>
-                </div>
-                <div class="col col-sm order-sm-first col-md">
-                    <div class="d-flex align-items-center">
-                        <div class="flex-shrink-0">
-                            <img
-                                src="./img/alberto.jpg"
-                                alt="alberto"
-                                class="img-thumbnail"
-                                width="125"
-                            />
-                        </div>
-                        <div class="flex-grow-1 ms-3">
-                            <h2 class="mt-0">Alberto Somayya</h2>
-                            <h4>Executive Chef</h4>
-                            <p class="d-none d-sm-block">
-                                Award winning three-star Michelin chef with wide
-                                International experience having worked closely
-                                with whos-who in the culinary world, he
-                                specializes in creating mouthwatering
-                                Indo-Italian fusion experiences.
-                            </p>
-                        </div>
-                    </div>
-                </div>
+               <!-- ! media class has been replaced in bootstrap 5 -->
+               <div class="d-flex align-items-center">
+                  <div class="flex-shrink-0">
+                     <img
+                        src="./img/uthappizza.png"
+                        alt="uthappizza"
+                        class="img-thumbnail"
+                     />
+                  </div>
+                  <div class="flex-grow-1 ms-3">
+                     <h2 class="mt-0">
+                        Uthappizza
+                        <span class="badge text-bg-danger">HOT</span>
+                        <span class="badge rounded-pill text-bg-secondary">
+                           $4.99
+                        </span>
+                     </h2>
+                     <p class="d-none d-sm-block">
+                        A unique combination of Indian Uthappam (pancake) and
+                        Italian pizza, topped with Cerignola olives, ripe vine
+                        cherry tomatoes, Vidalia onion, Guntur chillies and
+                        Buffalo Paneer.
+                     </p>
+                  </div>
+               </div>
             </div>
-        </div>
+         </div>
 
-        <footer class="footer">
-            <div class="container">
-                <div class="row">
-                    <div class="col-4 offset-1 col-sm-2">
-                        <!-- ? offset will pushed the dive to the right by 1 column -->
-                        <h5>Links</h5>
-                        <ul class="list-unstyled">
-                            <!-- ? Remove bullets in the below lis' -->
-                            <li><a href="#">Home</a></li>
-                            <li><a href="./aboutus.html">About</a></li>
-                            <li><a href="#">Menu</a></li>
-                            <li><a href="./contactus.html">Contact</a></li>
-                        </ul>
-                    </div>
-                    <div class="col-7 col-sm-5">
-                        <h5>Our Address</h5>
-                        <address>
-                            121, Clear Water Bay Road<br />
-                            Clear Water Bay, Kowloon<br />
-                            HONG KONG<br />
-                            <i class="fa-solid fa-square-phone fa-lg"></i>: +852
-                            1234 5678<br />
-                            <i class="fa-solid fa-fax"></i>: +852 8765 4321<br />
-                            <i class="fa-solid fa-envelope"></i>:
-                            <a href="mailto:confusion@food.net"
-                                >confusion@food.net</a
-                            >
-                        </address>
-                    </div>
-                    <div class="col-12 col-sm-4 align-self-center">
-                        <!-- ? algin-self-center will align this vertically -->
-                        <div class="text-center align-items-center">
-                            <a
-                                href="http://google.com/+"
-                                class="btn btn-social-icon btn-google"
-                            >
-                                <i class="fa-brands fa-google-plus-g fa-lg"></i>
-                            </a>
-                            <a
-                                href="http://www.facebook.com/profile.php?id="
-                                class="btn btn-social-icon btn-facebook"
-                            >
-                                <i class="fa-brands fa-facebook fa-lg"></i>
-                            </a>
-                            <a
-                                href="http://www.linkedin.com/in/"
-                                class="btn btn-social-icon btn-linkedin"
-                            >
-                                <i class="fa-brands fa-linkedin fa-lg"></i>
-                            </a>
-                            <a
-                                href="http://twitter.com/"
-                                class="btn btn-social-icon btn-twitter"
-                            >
-                                <i class="fa-brands fa-twitter fa-lg"></i>
-                            </a>
-                            <a
-                                href="http://youtube.com/"
-                                class="btn btn-social-icon btn-google"
-                            >
-                                <i class="fa-brands fa-youtube fa-lg"></i>
-                            </a>
-                            <a href="mailto:" class="btn btn-social-icon">
-                                <i class="fa-solid fa-envelope fa-lg"></i>
-                            </a>
-                        </div>
-                    </div>
-                </div>
-                <div class="row justify-content-center">
-                    <!-- ? justify-content-center will center horizontally -->
-                    <div class="col-auto">
-                        <p>© Copyright 2018 Ristorante Con Fusion</p>
-                    </div>
-                </div>
+         <div class="row row-content align-items-center">
+            <div class="col-12 col-sm-4 col-md-3">
+               <h3 class>This Month's Promotions</h3>
             </div>
-        </footer>
-        <!-- jQuery first, then Popper.js, then Bootstrap JS. -->
-        <script src="node_modules/jquery/dist/jquery.slim.min.js"></script>
-        <script src="node_modules/popper.js/dist/umd/popper.min.js"></script>
-        <script src="node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
-    </body>
+            <div class="col col-sm col-md">
+               <div class="d-flex align-items-center">
+                  <div class="flex-shrink-0 order-sm-last">
+                     <img
+                        src="./img/buffet.png"
+                        alt="buffet"
+                        class="img-thumbnail"
+                     />
+                  </div>
+                  <div class="flex-grow-1 ms-3">
+                     <h2 class="mt-0">
+                        Weekend Grand Buffet
+                        <span class="badge text-bg-danger">NEW</span>
+                     </h2>
+                     <p class="d-none d-sm-block">
+                        Featuring mouthwatering combinations with a choice of
+                        five different salads, six enticing appetizers, six main
+                        entrees and five choicest desserts. Free flowing bubbly
+                        and soft drinks. All for just $19.99 per person
+                     </p>
+                  </div>
+               </div>
+            </div>
+         </div>
+
+         <div class="row row-content align-items-center">
+            <div class="col-12 col-sm-4 order-sm-last col-md-3">
+               <h3>Meet our Culinary Specialists</h3>
+            </div>
+            <div class="col col-sm order-sm-first col-md">
+               <div class="d-flex align-items-center">
+                  <div class="flex-shrink-0">
+                     <img
+                        src="./img/alberto.jpg"
+                        alt="alberto"
+                        class="img-thumbnail"
+                        width="125"
+                     />
+                  </div>
+                  <div class="flex-grow-1 ms-3">
+                     <h2 class="mt-0">Alberto Somayya</h2>
+                     <h4>Executive Chef</h4>
+                     <p class="d-none d-sm-block">
+                        Award winning three-star Michelin chef with wide
+                        International experience having worked closely with
+                        whos-who in the culinary world, he specializes in
+                        creating mouthwatering Indo-Italian fusion experiences.
+                     </p>
+                  </div>
+               </div>
+            </div>
+         </div>
+
+         <div class="row row-content align-items-center justify-content-center">
+            <div class="col-12 col-sm-8" id="reserve-table-form">
+               <div class="card">
+                  <h3 class="card-header bg-warning text-light">
+                     Reserve a Table
+                  </h3>
+                  <div class="card-body">
+                     <form action="">
+                        <div class="row mb-3">
+                           <label
+                              for="guestCount"
+                              class="col-sm-2 col-form-label"
+                           >
+                              Number of Guests
+                           </label>
+                           <div class="col-sm-10 mt-sm-3">
+                              <div class="form-check form-check-inline">
+                                 <input
+                                    type="radio"
+                                    name="numberOfGuests"
+                                    id="guestCount1"
+                                    value="1guest"
+                                 />
+                                 <label
+                                    for="guestCount1"
+                                    class="form-check-label"
+                                 >
+                                    1
+                                 </label>
+                              </div>
+                              <div class="form-check form-check-inline">
+                                 <input
+                                    type="radio"
+                                    name="numberOfGuests"
+                                    id="guestCount2"
+                                    value="2guest"
+                                 />
+                                 <label
+                                    for="guestCount2"
+                                    class="form-check-label"
+                                 >
+                                    2
+                                 </label>
+                              </div>
+                              <div class="form-check form-check-inline">
+                                 <input
+                                    type="radio"
+                                    name="numberOfGuests"
+                                    id="guestCount3"
+                                    value="3guest"
+                                 />
+                                 <label
+                                    for="guestCount3"
+                                    class="form-check-label"
+                                 >
+                                    3
+                                 </label>
+                              </div>
+                              <div class="form-check form-check-inline">
+                                 <input
+                                    type="radio"
+                                    name="numberOfGuests"
+                                    id="guestCount4"
+                                    value="4guest"
+                                 />
+                                 <label
+                                    for="guestCount4"
+                                    class="form-check-label"
+                                 >
+                                    4
+                                 </label>
+                              </div>
+                              <div class="form-check form-check-inline">
+                                 <input
+                                    type="radio"
+                                    name="numberOfGuests"
+                                    id="guestCount5"
+                                    value="5guest"
+                                 />
+                                 <label
+                                    for="guestCount5"
+                                    class="form-check-label"
+                                 >
+                                    5
+                                 </label>
+                              </div>
+                              <div class="form-check form-check-inline">
+                                 <input
+                                    type="radio"
+                                    name="numberOfGuests"
+                                    id="guestCount6"
+                                    value="6guest"
+                                 />
+                                 <label
+                                    for="guestCount6"
+                                    class="form-check-label"
+                                 >
+                                    6
+                                 </label>
+                              </div>
+                           </div>
+                        </div>
+                        <div class="row mb-3">
+                           <label
+                              for="dateTime"
+                              class="col-form-label col-sm-2"
+                           >
+                              Date and Time
+                           </label>
+                           <div class="col-sm-4">
+                              <input
+                                 type="text"
+                                 name=""
+                                 id="dateTime"
+                                 class="form-control"
+                                 placeholder="Date"
+                              />
+                           </div>
+                           <div class="col-sm-4">
+                              <input
+                                 type="text"
+                                 name=""
+                                 id="dateTime"
+                                 class="form-control"
+                                 placeholder="Time"
+                              />
+                           </div>
+                        </div>
+                        <div class="row mb-3">
+                           <div class="col offset-sm-2 col-md-10">
+                              <button type="submit" class="btn btn-primary">
+                                 Reserve
+                              </button>
+                           </div>
+                        </div>
+                     </form>
+                  </div>
+               </div>
+            </div>
+         </div>
+      </div>
+
+      <footer class="footer">
+         <div class="container">
+            <div class="row">
+               <div class="col-4 offset-1 col-sm-2">
+                  <!-- ? offset will pushed the dive to the right by 1 column -->
+                  <h5>Links</h5>
+                  <ul class="list-unstyled">
+                     <!-- ? Remove bullets in the below lis' -->
+                     <li><a href="#">Home</a></li>
+                     <li><a href="./aboutus.html">About</a></li>
+                     <li><a href="#">Menu</a></li>
+                     <li><a href="./contactus.html">Contact</a></li>
+                  </ul>
+               </div>
+               <div class="col-7 col-sm-5">
+                  <h5>Our Address</h5>
+                  <address>
+                     121, Clear Water Bay Road<br />
+                     Clear Water Bay, Kowloon<br />
+                     HONG KONG<br />
+                     <i class="fa-solid fa-square-phone fa-lg"></i>: +852 1234
+                     5678<br />
+                     <i class="fa-solid fa-fax"></i>: +852 8765 4321<br />
+                     <i class="fa-solid fa-envelope"></i>:
+                     <a href="mailto:confusion@food.net">confusion@food.net</a>
+                  </address>
+               </div>
+               <div class="col-12 col-sm-4 align-self-center">
+                  <!-- ? algin-self-center will align this vertically -->
+                  <div class="text-center align-items-center">
+                     <a
+                        href="http://google.com/+"
+                        class="btn btn-social-icon btn-google"
+                     >
+                        <i class="fa-brands fa-google-plus-g fa-lg"></i>
+                     </a>
+                     <a
+                        href="http://www.facebook.com/profile.php?id="
+                        class="btn btn-social-icon btn-facebook"
+                     >
+                        <i class="fa-brands fa-facebook fa-lg"></i>
+                     </a>
+                     <a
+                        href="http://www.linkedin.com/in/"
+                        class="btn btn-social-icon btn-linkedin"
+                     >
+                        <i class="fa-brands fa-linkedin fa-lg"></i>
+                     </a>
+                     <a
+                        href="http://twitter.com/"
+                        class="btn btn-social-icon btn-twitter"
+                     >
+                        <i class="fa-brands fa-twitter fa-lg"></i>
+                     </a>
+                     <a
+                        href="http://youtube.com/"
+                        class="btn btn-social-icon btn-google"
+                     >
+                        <i class="fa-brands fa-youtube fa-lg"></i>
+                     </a>
+                     <a href="mailto:" class="btn btn-social-icon">
+                        <i class="fa-solid fa-envelope fa-lg"></i>
+                     </a>
+                  </div>
+               </div>
+            </div>
+            <div class="row justify-content-center">
+               <!-- ? justify-content-center will center horizontally -->
+               <div class="col-auto">
+                  <p>© Copyright 2018 Ristorante Con Fusion</p>
+               </div>
+            </div>
+         </div>
+      </footer>
+      <!-- jQuery first, then Popper.js, then Bootstrap JS. -->
+      <script src="node_modules/jquery/dist/jquery.slim.min.js"></script>
+      <script src="node_modules/popper.js/dist/umd/popper.min.js"></script>
+      <script src="node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
+   </body>
 </html>
