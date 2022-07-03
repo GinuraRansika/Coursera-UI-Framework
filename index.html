@@ -106,7 +106,7 @@
                   <form action="">
                      <div class="row">
                         <div class="col-sm-4 mb-3">
-                           <label for="inputEmail" class="sr-only">
+                           <label for="inputEmail" class="visually-hidden">
                               Email Address</label
                            >
                            <input
@@ -117,7 +117,7 @@
                            />
                         </div>
                         <div class="col-sm-4 mb-3">
-                           <label for="inputPassword" class="sr-only">
+                           <label for="inputPassword" class="visually-hidden">
                               Password
                            </label>
                            <input
@@ -196,6 +196,132 @@
       </header>
 
       <div class="container">
+         <div class="row row-content">
+            <div class="col">
+               <!-- ? carousel with pictures and description -->
+               <div
+                  id="myCarousel"
+                  class="carousel slid"
+                  data-bs-ride="carousel"
+               >
+                  <div class="carousel-inner" role="listbox">
+                     <div class="carousel-item active">
+                        <img
+                           src="./img/uthappizza.png"
+                           alt="uthappizza"
+                           class="d-block img-fluid"
+                        />
+                        <div class="carousel-caption d-none d-md-block">
+                           <h2 class="mt-0">
+                              Uthappizza
+                              <span class="badge text-bg-danger">HOT</span>
+                              <span
+                                 class="badge rounded-pill text-bg-secondary"
+                              >
+                                 $4.99
+                              </span>
+                           </h2>
+                           <p class="d-none d-sm-block">
+                              A unique combination of Indian Uthappam (pancake)
+                              and Italian pizza, topped with Cerignola olives,
+                              ripe vine cherry tomatoes, Vidalia onion, Guntur
+                              chillies and Buffalo Paneer.
+                           </p>
+                        </div>
+                     </div>
+                     <div class="carousel-item">
+                        <img
+                           src="./img/buffet.png"
+                           alt="buffet"
+                           class="d-block img-fluid"
+                        />
+                        <div class="carousel-caption d-none d-md-block">
+                           <h2 class="mt-0">
+                              Weekend Grand Buffet
+                              <span class="badge text-bg-danger">NEW</span>
+                           </h2>
+                           <p class="d-none d-sm-block">
+                              Featuring mouthwatering combinations with a choice
+                              of five different salads, six enticing appetizers,
+                              six main entrees and five choicest desserts. Free
+                              flowing bubbly and soft drinks. All for just
+                              $19.99 per person
+                           </p>
+                        </div>
+                     </div>
+                     <div class="carousel-item">
+                        <img
+                           src="./img/alberto.jpg"
+                           alt=""
+                           class="d-block img-fluid"
+                           width="300"
+                        />
+                        <div class="carousel-caption d-none d-md-block">
+                           <h2 class="mt-0">Alberto Somayya</h2>
+                           <h4>Executive Chef</h4>
+                           <p class="d-none d-sm-block">
+                              Award winning three-star Michelin chef with wide
+                              International experience having worked closely
+                              with whos-who in the culinary world, he
+                              specializes in creating mouthwatering Indo-Italian
+                              fusion experiences.
+                           </p>
+                        </div>
+                     </div>
+                  </div>
+                  <!-- ? buttons in the footer part of the carousel -->
+                  <div class="carousel-indicators">
+                     <button
+                        type="button"
+                        data-bs-target="#myCarousel"
+                        data-bs-slide-to="0"
+                        class="active"
+                        aria-current="true"
+                        aria-label="Slide 1"
+                     ></button>
+                     <button
+                        type="button"
+                        data-bs-target="#myCarousel"
+                        data-bs-slide-to="1"
+                        aria-label="Slide 2"
+                     ></button>
+                     <button
+                        type="button"
+                        data-bs-target="#myCarousel"
+                        data-bs-slide-to="2"
+                        aria-label="Slide 3"
+                     ></button>
+                  </div>
+
+                  <!-- ? next and previous button to the carousel -->
+                  <button
+                     class="carousel-control-prev"
+                     type="button"
+                     data-bs-target="#myCarousel"
+                     data-bs-slide="prev"
+                  >
+                     <span
+                        class="carousel-control-prev-icon"
+                        aria-hidden="true"
+                     ></span>
+                     <span class="visually-hidden">Previous</span>
+                  </button>
+                  <button
+                     class="carousel-control-next"
+                     type="button"
+                     data-bs-target="#myCarousel"
+                     data-bs-slide="next"
+                  >
+                     <span
+                        class="carousel-control-next-icon"
+                        aria-hidden="true"
+                     ></span>
+                     <span class="visually-hidden">Next</span>
+                  </button>
+               </div>
+            </div>
+         </div>
+
          <div class="row row-content align-items-center">
             <div class="col-12 col-sm-4 order-sm-last col-md-3">
                <!-- ? the order will put this div in the right corner -->
