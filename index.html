@@ -330,7 +330,7 @@
                            <input
                               type="text"
                               name=""
-                              id="dateTime"
+                              id="Date"
                               class="form-control"
                               placeholder="Date"
                            />
@@ -339,7 +339,7 @@
                            <input
                               type="text"
                               name=""
-                              id="dateTime"
+                              id="Time"
                               class="form-control"
                               placeholder="Time"
                            />
@@ -490,6 +490,18 @@
                      ></span>
                      <span class="visually-hidden">Next</span>
                   </button>
+                  <div class="btn-group" id="carouselButton">
+                     <button
+                        type="button"
+                        class="btn btn-danger btn-sm"
+                        id="carousel-pause"
+                     >
+                        <i class="fa-solid fa-pause"></i>
+                     </button>
+                     <button class="btn btn-danger btn-sm" id="carousel-play">
+                        <i class="fa-solid fa-play"></i>
+                     </button>
+                  </div>
                </div>
             </div>
          </div>
@@ -819,5 +831,21 @@
          });
       </script> -->
       <!-- * or the code in the Bootstrap page -->
+
+      <!--  * JavaScript code written in JQuery syntax to
+            * Carousel's play and pause button -->
+      <script>
+         $(document).ready(function () {
+            $("#myCarousel").carousel({ interval: 2000, pause: false });
+            $("#carousel-pause").click(function () {
+               console.log("pause");
+               $("#myCarousel").carousel("pause");
+            });
+            $("#carousel-play").click(function () {
+               console.log("cycle");
+               $("#myCarousel").carousel("cycle");
+            });
+         });
+      </script>
    </body>
 </html>
