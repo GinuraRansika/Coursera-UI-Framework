@@ -1,0 +1,94 @@
+// ! Creates some variables
+$lt-grey:#ddd;
+$background-dark :#512DA8;
+$background-light: #9575CD;
+$background-pale:#b99aea85;
+
+// !Height variables
+$carousel-item-height: 300px;
+
+// ! A mixin for the margin
+@mixin zero-margin($padding-up-down, $padding-left-right) {
+    margin:0px auto;
+    padding: $padding-up-down $padding-left-right;
+}
+
+.row-header{
+    // ? will use the mixin
+    @include zero-margin(0px,0px)
+}
+
+.row-content{
+    @include zero-margin(50px,0px);
+    border-bottom: 1px ridge;
+    min-height: 400px;
+}
+
+.footer{
+    background-color: $background-pale;
+    @include zero-margin(20px,0px);
+    
+}
+
+.jumbotron{
+    background-color: $background-light;
+    @include zero-margin(50px,0px);
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+    color:floralwhite;
+}
+
+a {
+    text-decoration: none;
+ }
+ 
+.address{
+    font-size: 80%;
+    margin: 0px;
+    color: #0f0f0f;
+}
+
+body{
+    padding:50px 0px 0px 0px;
+    z-index:0;
+}
+
+.navbar-dark{
+    background-color: $background-dark;
+
+}
+
+.tab-content{
+    border-left: 1px solid $lt-gray;
+    border-right: 1px solid $lt-gray;
+    border-bottom: 1px solid $lt-gray;
+    padding: 15px;
+}
+
+// ! Nested items
+.carousel{
+    background-color: $background-dark;
+
+    .carousel-item{
+        height: $carousel-item-height ;
+        
+        img{
+            position: absolute;
+            top:0;
+            left:0;
+            min-height: 300px;
+        }
+    }
+}
+
+#carouselButton{
+    position: absolute;
+    right: 0px;
+    bottom:0px;
+}
+
+// * To convert SCSS file into the CSS code use 
+// * $ npm install --save-dev node-sass@4.7.2
+// * edit the package.json file so output of the converted files will be in the CSS folder, 
+//      * and the source here will also be in the CSS folder.
+// * Then run (npm run scss)
