@@ -8,17 +8,26 @@
     "test": "echo \"Error: no test specified\" && exit 1",
     "lite": "lite-server"
   },
-  "author": "",
+  "author": "Ginura Ransika",
   "license": "ISC",
   "devDependencies": {
     "lite-server": "^2.3.0"
   },
   "dependencies": {
     "@fortawesome/fontawesome-free": "^6.1.1",
+    "@popperjs/core": "^2.11.5",
+    "bootstrap": "^5.2.0-beta1",
     "bootstrap-social": "^5.1.1",
     "font-awesome": "^4.7.0",
     "jquery": "^3.6.0",
-    "@popperjs/core": "^2.11.5",
-    "bootstrap": "^5.2.0-beta1"
-  }
+    "uuid": "^8.3.2"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/GinuraRansika/Coursera-UI-Framework.git"
+  },
+  "bugs": {
+    "url": "https://github.com/GinuraRansika/Coursera-UI-Framework/issues"
+  },
+  "homepage": "https://github.com/GinuraRansika/Coursera-UI-Framework#readme"
 }
