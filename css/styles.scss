@@ -59,9 +59,9 @@ body{
 }
 
 .tab-content{
-    border-left: 1px solid $lt-gray;
-    border-right: 1px solid $lt-gray;
-    border-bottom: 1px solid $lt-gray;
+    border-left: 1px solid $lt-grey;
+    border-right: 1px solid $lt-grey;
+    border-bottom: 1px solid $lt-grey;
     padding: 15px;
 }
 
@@ -85,6 +85,7 @@ body{
     position: absolute;
     right: 0px;
     bottom:0px;
+    z-index: 1;
 }
 
 // * To convert SCSS file into the CSS code use 
