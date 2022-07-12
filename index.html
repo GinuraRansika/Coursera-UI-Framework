@@ -65,7 +65,7 @@
                   </li>
                </ul>
                <span class="navbar-text">
-                  <a href="" data-bs-toggle="modal" data-bs-target="#loginModal">
+                  <a href="#loginModal"  id="loginModalLink">
                      <i class="fa-solid fa-sign-in me-2"> </i>Login
                   </a>
                </span>
@@ -154,8 +154,7 @@
                      <button
                         type="button"
                         class="btn btn-warning btn-lg text-white"
-                        data-bs-toggle="modal"
-                        data-bs-target="#reserveTableModal"
+                        id="reserveTableModalButton"
                      >
                         Reserve Table
                      </button>
@@ -763,7 +762,21 @@
                   $("#carousel-play-pause-button").children("i").addClass("fa-pause");
                }
             });
+
+            // For the Reserve Table
+            $("#reserveTableModalButton").click(function() {
+               $("#reserveTableModal").modal('toggle');
+            });
+
+            // For the Login part
+            $("#loginModalLink").click(function() {
+               $("#loginModal").modal('toggle');
+            });
+
+
          });
+
+         
       </script>
    </body>
 </html>

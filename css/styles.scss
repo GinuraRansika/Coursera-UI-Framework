@@ -1,8 +1,9 @@
 // ! Creates some variables
-$lt-grey:#ddd;
+$lt-gray:#ddd;
 $background-dark :#512DA8;
 $background-light: #9575CD;
-$background-pale:#b99aea85;
+$background-pale:#c1a7f0;
+$font-color:floralwhite;
 
 // !Height variables
 $carousel-item-height: 300px;
@@ -35,7 +36,7 @@ $carousel-item-height: 300px;
     @include zero-margin(50px,0px);
     border-bottom-left-radius: 5px;
     border-bottom-right-radius: 5px;
-    color:floralwhite;
+    color:$font-color;
 }
 
 a {
@@ -59,9 +60,9 @@ body{
 }
 
 .tab-content{
-    border-left: 1px solid $lt-grey;
-    border-right: 1px solid $lt-grey;
-    border-bottom: 1px solid $lt-grey;
+    border-left: 1px solid $lt-gray;
+    border-right: 1px solid $lt-gray;
+    border-bottom: 1px solid $lt-gray;
     padding: 15px;
 }
 
@@ -86,6 +87,24 @@ body{
     right: 0px;
     bottom:0px;
     z-index: 1;
+}
+
+.modal{
+    .modal-dialog{
+        .modal-body{
+            background-color: $background-pale;
+        }
+        .modal-header{
+            color:$font-color;
+            background-color: $background-dark;
+            
+            .btn-close{
+                filter: invert(1) grayscale(100%) brightness(200%)                 ;
+                -webkit-filter: invert(1) grayscale(100%) brightness(200%);
+}
+        }
+        
+    }
 }
 
 // * To convert SCSS file into the CSS code use 
