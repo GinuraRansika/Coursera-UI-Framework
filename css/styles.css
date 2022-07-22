@@ -1,17 +1,20 @@
 .row-header {
   margin: 0px auto;
-  padding: 0px 0px; }
+  padding: 0px 0px;
+}
 
 .row-content {
   margin: 0px auto;
   padding: 50px 0px;
   border-bottom: 1px ridge;
-  min-height: 400px; }
+  min-height: 400px;
+}
 
 .footer {
   background-color: #c1a7f0;
   margin: 0px auto;
-  padding: 20px 0px; }
+  padding: 20px 0px;
+}
 
 .jumbotron {
   background-color: #9575CD;
@@ -19,53 +22,63 @@
   padding: 50px 0px;
   border-bottom-left-radius: 5px;
   border-bottom-right-radius: 5px;
-  color: floralwhite; }
+  color: floralwhite;
+}
 
 a {
-  text-decoration: none; }
+  text-decoration: none;
+}
 
 .address {
   font-size: 80%;
   margin: 0px;
-  color: #0f0f0f; }
+  color: #0f0f0f;
+}
 
 body {
   padding: 50px 0px 0px 0px;
-  z-index: 0; }
+  z-index: 0;
+}
 
 .navbar-dark {
-  background-color: #512DA8; }
+  background-color: #512DA8;
+}
 
 .tab-content {
-  border-left: 1px solid #ddd;
+  border-left: 10px solid #ddd;
   border-right: 1px solid #ddd;
   border-bottom: 1px solid #ddd;
-  padding: 15px; }
+  padding: 15px;
+}
 
 .carousel {
-  background-color: #512DA8; }
-  .carousel .carousel-item {
-    height: 300px; }
-    .carousel .carousel-item img {
-      position: absolute;
-      top: 0;
-      left: 0;
-      min-height: 300px; }
+  background-color: #512DA8;
+}
+.carousel .carousel-item {
+  height: 300px;
+}
+.carousel .carousel-item img {
+  position: absolute;
+  top: 0;
+  left: 0;
+  min-height: 300px;
+}
 
 #carouselButton {
   position: absolute;
   right: 0px;
   bottom: 0px;
-  z-index: 1; }
+  z-index: 1;
+}
 
 .modal .modal-dialog .modal-body {
-  background-color: #c1a7f0; }
-
+  background-color: #c1a7f0;
+}
 .modal .modal-dialog .modal-header {
   color: floralwhite;
-  background-color: #512DA8; }
-  .modal .modal-dialog .modal-header .btn-close {
-    filter: invert(1) grayscale(100%) brightness(200%);
-    -webkit-filter: invert(1) grayscale(100%) brightness(200%); }
-
-/*# sourceMappingURL=styles.css.map */
+  background-color: #512DA8;
+}
+.modal .modal-dialog .modal-header .btn-close {
+  filter: invert(1) grayscale(100%) brightness(200%);
+  -webkit-filter: invert(1) grayscale(100%) brightness(200%);
+}

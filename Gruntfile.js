@@ -9,6 +9,7 @@ module.exports = function(grunt) {
     require('time-grunt')(grunt); //* Time how long tasks take. Can help when optimizing build times
 
     //* Automatically load required Grunt tasks
+    //* 2nd part will inform it that useminPrepare task depends on the usemin package 
     require('jit-grunt')(grunt, {
         useminPrepare: 'grunt-usemin'
     });  
@@ -134,16 +135,19 @@ module.exports = function(grunt) {
             options: {
                 separator: ';'
             },
+            // dist configuration is provided by useminPrepare
             dist: {}
         },
 
          // ! uglify
         ulgify: {
+            // dist configuration is provided by useminPrepare
             dist: {}
         },
 
          // ! cssmin
         cssmin: {
+            // dist configuration is provided by useminPrepare
             dist: {}
         },
 
@@ -168,6 +172,9 @@ module.exports = function(grunt) {
         },
 
         // ! usemin Task
+        //* Replaces all assets with their revved version in html and css files.
+        //* options.assetDirs contains the directories for finding the assets
+        //* according to their relative paths
         usemin: {
             html: ['dist/contactus.html', 'dist/aboutus.html', 'dist/index.html'],
             options:{
